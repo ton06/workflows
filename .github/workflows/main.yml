@@ -1,9 +1,7 @@
 name: "MAIN DEPLOY"
 
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
 
 permissions:
   id-token: write
